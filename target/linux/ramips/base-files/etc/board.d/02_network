@@ -141,6 +141,7 @@ ramips_setup_interfaces()
 	mzk-750dhp | \
 	whr-300hp2 | \
 	whr-600d | \
+	witi | \
 	wsr-600 | \
 	wsr-1166 | \
 	wt1520 | \

@@ -127,6 +127,9 @@ get_status_led() {
 	pbr-m1)
 		status_led="pbr-m1:green:sys"
 		;;
+	witi)
+		status_led="witi:green:sys"
+		;;
 	psr-680w)
 		status_led="psr-680w:red:wan"
 		;;

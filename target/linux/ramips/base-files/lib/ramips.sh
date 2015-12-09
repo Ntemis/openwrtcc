@@ -256,6 +256,9 @@ ramips_board_detect() {
 	*"PBR-M1")
 		name="pbr-m1"
 		;;
+	*"WITI")
+		name="witi"
+		;;
 	*"Petatel PSR-680W"*)
 		name="psr-680w"
 		;;

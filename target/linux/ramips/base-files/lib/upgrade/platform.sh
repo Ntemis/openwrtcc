@@ -106,6 +106,7 @@ platform_check_image() {
 	whr-600d |\
 	whr-1166d |\
 	wizfi630a |\
+	witi |\
 	wsr-600 |\
 	wl-330n | \
 	wl-330n3g | \
