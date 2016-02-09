@@ -94,6 +94,10 @@ define uboot/orangepi_plus
   TITLE:=U-Boot for Orange Pi Plus (H3)
 endef
 
+define uboot/orangepi_pc
+  TITLE:=U-Boot for Orange Pi Pc (H3)
+endef
+
 UBOOTS:= \
 	A10-OLinuXino-Lime \
 	A13-OLinuXino \
@@ -110,7 +114,8 @@ UBOOTS:= \
 	Linksprite_pcDuino \
 	Linksprite_pcDuino3 \
 	Lamobo_R1 \
-	orangepi_plus
+	orangepi_plus \
+	orangepi_pc
 
 define Package/uboot/template
 define Package/uboot-sunxi-$(1)

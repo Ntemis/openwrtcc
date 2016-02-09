@@ -124,6 +124,10 @@ sunxi_board_detect() {
 		"Ippo Q8H Dual Core Tablet (v5)")
 			board="ippo-q8h-v5"
 			;;
+
+		"Orange PI PC")
+			board="orangepi-pc"
+			;;
 	esac
 
 	if [ "$board" != "" ]; then
