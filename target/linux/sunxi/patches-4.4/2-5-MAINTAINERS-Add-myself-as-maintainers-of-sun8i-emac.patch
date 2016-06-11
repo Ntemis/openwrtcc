@@ -1,0 +1,17 @@
+diff --git a/MAINTAINERS b/MAINTAINERS
+index ed42cb6..d8f5c14 100644
+--- a/MAINTAINERS
++++ b/MAINTAINERS
+@@ -581,6 +581,12 @@ S:	Maintained
+ F:	Documentation/i2c/busses/i2c-ali1563
+ F:	drivers/i2c/busses/i2c-ali1563.c
+ 
++ALLWINNER SUN8I-EMAC ETHERNET DRIVER
++M:	Corentin Labbe <clabbe.montjoie@gmail.com>
++L:	netdev@vger.kernel.org
++S:	Maintained
++F:	drivers/net/ethernet/allwinner/sun8i-emac.c
++
+ ALLWINNER SECURITY SYSTEM
+ M:	Corentin Labbe <clabbe.montjoie@gmail.com>
+ L:	linux-crypto@vger.kernel.org

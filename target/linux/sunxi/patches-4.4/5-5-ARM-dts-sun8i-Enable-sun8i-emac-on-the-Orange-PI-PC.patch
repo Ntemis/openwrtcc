@@ -1,0 +1,19 @@
+diff --git a/arch/arm/boot/dts/sun8i-h3-orangepi-pc.dts b/arch/arm/boot/dts/sun8i-h3-orangepi-pc.dts
+index daf50b9a6..b8340f7 100644
+--- a/arch/arm/boot/dts/sun8i-h3-orangepi-pc.dts
++++ b/arch/arm/boot/dts/sun8i-h3-orangepi-pc.dts
+@@ -165,3 +165,14 @@
+ 	/* USB VBUS is always on */
+ 	status = "okay";
+ };
++
++&emac {
++	phy = <&phy1>;
++	phy-mode = "mii";
++	allwinner,use-internal-phy;
++	allwinner,leds-active-low;
++	status = "okay";
++	phy1: ethernet-phy@1 {
++		reg = <1>;
++	};
++};
