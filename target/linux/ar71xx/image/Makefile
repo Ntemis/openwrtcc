@@ -553,15 +553,9 @@ define Device/tl-wr743nd-v2
     TPLINK_HWID := 0x07430002
     CONSOLE := ttyATH0,115200
 endef
-TARGET_DEVICES += tl-wr740n-v4 tl-wr740n-v5 tl-wr740n-v6 tl-wr741nd-v1 tl-wr741nd-v2 tl-wr741nd-v4 tl-wr741nd-v5 tl-wr743nd-v2
 
-<<<<<<< HEAD
-define Device/tl-wr841-v8
-    $(Device/tplink-16mlzma)
-=======
 define Device/tl-wr841n-v8
-    $(Device/tplink-4mlzma)
->>>>>>> 6d6921e... Revert "ar71xx: change some TP-link modelnames (WR841, WA701, WA730)"
+    $(Device/tplink-16mlzma)
     BOARDNAME := TL-WR841N-v8
     DEVICE_PROFILE := TLWR841
     TPLINK_HWID := 0x08410008
