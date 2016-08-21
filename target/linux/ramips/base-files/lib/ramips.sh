@@ -175,6 +175,9 @@ ramips_board_detect() {
 	*"Huawei D105")
 		name="d105"
 		;;
+	*"HC5661-v2")
+		name="hc5661-v2"
+		;;
 	*"La Fonera 2.0N")
 		name="fonera20n"
 		;;
