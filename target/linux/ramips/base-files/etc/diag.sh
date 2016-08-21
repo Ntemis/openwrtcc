@@ -72,6 +72,9 @@ get_status_led() {
 	fonera20n)
 		status_led="fonera20n:green:power"
 		;;
+	hc5661-v2)
+		status_led="hc5661-v2:blue:power"
+		;;
 	ip2202)
 		status_led="ip2202:green:run"
 		;;
