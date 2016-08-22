@@ -7,7 +7,7 @@
 
 define Profile/HC5661-v2
 	NAME:=Eylike HC5661-v2
-	PACKAGES:=-kmod-usb-core -kmod-usb2 -kmod-usb-ohci -kmod-ledtrig-usbdev
+	PACKAGES:=-kmod-usb-core -kmod-usb-dwc2 -kmod-usb2 -kmod-usb-ohci -kmod-ledtrig-usbdev
 endef
 
 define Profile/HC5661-v2/Description
